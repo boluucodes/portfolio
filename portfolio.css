@@ -1,0 +1,155 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    padding: 1rem 3%;
+}
+.nav-bar{
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+    border: solid 1px rgb(21, 94,239);
+    border-radius: 12px;
+    margin: .5rem 0;
+    
+}
+.a{
+    border: solid 1px rgb(21, 94,239);
+    padding: .35rem;
+    border-right: none;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    /* gap: 5%; */
+    align-items: center;
+ 
+}
+.nav-text{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    
+}
+.home , .about , .hire {
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+.text-container p{
+    font-size: 2rem;
+    color: rgb(21, 94,239);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+.nav-text a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Halant', serif;
+    font-weight: 500;
+}
+.hire{
+    border: solid 1px rgb(21, 94,239);
+    border-radius: 8px;
+    padding: .4rem;
+    color: rgb(21, 94,239);
+}
+.hire a{
+    color: rgb(21, 94,239);
+}
+.intro h2{
+    color: rgb( 21, 94,239);
+    font-family: 'Halant', serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+}
+.see button{
+     background-color: rgb( 21, 94,239);
+     border-radius: 5px;
+     padding: 10px 1rem;
+     margin-top: 1rem;
+     color: white;
+     border: solid 1px rgb( 21, 94,239);
+     text-decoration: none;
+     cursor: pointer;
+}
+.first{
+    padding: 4rem 2rem;
+    
+}
+.intro p{
+    padding-top: 1.5rem;
+    
+}
+.intro h3{
+    font-family:'Halant', serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: .5px;
+}
+.content{
+    width: 60%;
+}
+.content p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: .5px;
+}
+.about-me{
+    width: 50%;
+}
+.about-me h2{
+font-family: 'Halant', serif;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+padding-bottom: 24px;
+}
+.about-me p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: .5px;
+    color: rgb(46,58,83);
+}
+.second{
+    margin: 2.5rem 0;
+    padding: 3rem 1.5rem;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    gap: 15px;
+}
+.socials img{
+    height: 20px;
+}
+.text p{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: .5px;
+}
+.foot{
+    border: solid 1px  rgb( 21, 94,239);
+    padding: 0 2rem;
+    border-radius: 12px;
+}
+.socials:hover{
+    cursor: pointer;
+}
