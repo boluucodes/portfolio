@@ -15,7 +15,7 @@ body{
     align-items: center;
     border: solid 1px rgb(21, 94,239);
     border-radius: 12px;
-    margin: 4% 0;
+    margin: 0 0 3% 0;
     
 }
 .a{
@@ -26,7 +26,6 @@ body{
 .img1{
     display: flex;
     justify-content: center;
-    /* gap: 5%; */
     align-items: center;
  
 }
@@ -157,29 +156,29 @@ padding-bottom: 24px;
 .positions{
     display: flex;
     justify-content: center;
+    width: 100%;
     font-size: 1.5rem;
     align-items: center;
     border: solid 1px rgb(21, 94,239);
     border-radius: 12px;
-    margin: 7% 0;
-    padding: 9% 2% 2% 2%;   
-    object-fit: contain;
+    margin: 5% 0;
+    padding: 9% 1% 0% 1%;   
 }
 .frame{
-    position: relative;
-    top: 5rem;
-    right: 2rem;
+    width: 50%;
+    margin: 0 auto;
 }
-
 .project{
     color: black;
-    padding: 5% 7%;
-    width: 75%;
+    padding: 3% 4%;
+    margin-right: -2%;
+    margin-top: 5%;
+    width: 50%;
     border: solid 2px white;
     background-color: rgba(249, 245, 255,1);
     position: relative;
     bottom: 9rem;
-    right: -4rem;
+    right: -10%;
     z-index: 1;
 }
 .extras,.thanks,.list{
@@ -194,8 +193,146 @@ padding-bottom: 24px;
 }
 .list{
     padding: 0 2%;
-    margin: 0 2%;
+    margin: 0 5%;
 }
 #yes{
     padding-bottom: 3%;
+}
+.hamburger{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .nav-text{
+        display: none;
+    }
+    .nav-bar{
+        padding: 2%;
+    }
+    .line{
+        width: 1.5rem;
+        margin-bottom: 5px;
+        height: 5px;
+        background-color: black;
+        cursor: pointer;
+
+    }
+    .hamburger{
+        display: block;
+    }
+    .first{
+        flex-direction: column;
+        row-gap: 1rem;
+        text-align: center;
+    }
+    .intro{
+        width: 100%;
+    }
+    .intro h3{
+        font-size: 1rem;
+        line-height: 150%;
+        font-weight: 600;
+        font-family: 'Manrope', sans-serif;
+        padding: 4%;
+    }
+    .intro h2{
+        font-size: 32px;
+        line-height: 120%;
+        font-weight: 600;
+        padding: 2% 5%;
+    }
+    .intro p{
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+     }
+     .image-container{
+        width: 70%;
+        height: 50% ;
+     }
+    .content{
+        width: 100%;
+    }
+    .see button{
+        width: 80%;
+    }
+    .second{
+        flex-direction: column-reverse;
+        row-gap: 16px;
+    }
+    .about-me{
+        width: 100%;
+        text-align: center;
+    }
+    .about-me h2{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Halant', serif;
+        padding-bottom: 0;
+    }
+    .about-me p{
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: .5px;
+        font-family: 'Manrope', sans-serif;
+    }
+    .project{
+        position: static;
+        width: 100%;
+        margin: -3% 5% 0 5%;
+    }
+    .positions{
+        flex-direction: column;
+    }
+    .frame{
+        width: 100%;
+    }
+    .foot{
+        flex-wrap: wrap;
+    }
+    .text{
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .text p{
+        font-size: 15px;
+        line-height: 150%;
+        font-weight: 500;
+        font-family: 'Manrope', sans-serif;
+    }
+    .text-container p{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .socials img{
+        height: 2rem;
+    }
+    .a{
+        width: 95%;
+        height: 60%;
+    }
+    #yes{
+        font-size: 32px;
+        font-weight: 700;
+        font-family: 'Halant', serif;
+        padding-bottom: 2%;
+    }
+    .list,#no,.extras,.thanks{
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+    }
+    #no{
+        padding-left: 0%;
+    }
+    .list{
+    margin-left: 10%;
+    padding-left: 5%;
+    }
 }
